@@ -1,0 +1,7 @@
+{
+ "0_button": "html=<div id=\"root\" qaw_innertext=\"Show Checkbox 1 Show Checkbox 2 Pay in parts\"><div style=\"display: block;\" qaw_innertext=\"Show Checkbox 1\"><button qaw_innertext=\"Show Checkbox 1\"></button></div></div>",
+ "1_checkbox_65_ew_08_input": "html=<div class=\"left--owwq43 field--im5qtc\" qaw_innertext=\"Pay in parts\"><div class=\"checkboxWrapper--oicshg medium--k00dzk\" qaw_innertext=\"Pay in parts\"><input type=\"checkbox\" id=\"checkbox_65ew08\" class=\"checkbox--fxrnct\" qaw_labels=\"Pay in parts\" /></div></div>",
+ "2_button": "html=<div id=\"root\" qaw_innertext=\"Hide Checkbox 1 Pay in parts Show Checkbox 2 Pay in parts\"><div style=\"display: block;\" qaw_innertext=\"Hide Checkbox 1 Pay in parts\"><button qaw_innertext=\"Hide Checkbox 1\"></button></div></div>",
+ "3_button": "html=<div id=\"root\" qaw_innertext=\"Show Checkbox 1 Show Checkbox 2 Pay in parts\"><div style=\"display: block;\" qaw_innertext=\"Show Checkbox 2\"><button qaw_innertext=\"Show Checkbox 2\"></button></div></div>",
+ "4_checkbox_dp_6_ozv_input": "html=<div class=\"left--whauc4 field--b9r1gs\" qaw_innertext=\"Pay in parts\"><div class=\"checkboxWrapper--d6io01 medium--s4ph9a\" qaw_innertext=\"Pay in parts\"><input type=\"checkbox\" id=\"checkbox_dp6ozv\" class=\"checkbox--jccowe\" qaw_labels=\"Pay in parts\" /></div></div>"
+}

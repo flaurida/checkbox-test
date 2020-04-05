@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Checkbox, { randomString } from "./Checkbox";
 
 function App() {
+  const inputId = randomString();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <React.Fragment>
+      <Checkbox index={1} />
+      <Checkbox index={2} />
+
+      <div className={`left--${randomString()} field--${randomString()}`}>
+        <div
+          className={`checkboxWrapper--${randomString()} medium--${randomString()}`}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <input
+            type="checkbox"
+            id={`checkbox_${inputId}`}
+            className={`checkbox--${randomString()}`}
+          />
+          <label
+            htmlFor={`checkbox_${inputId}`}
+            className={`label--${randomString()}`}
+          >
+            Pay in parts
+          </label>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }
 
